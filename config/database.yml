@@ -81,8 +81,8 @@ development:
 # Read https://guides.rubyonrails.org/configuring.html#configuring-a-database
 # for a full overview on how database connection configuration can be specified.
 #
-production:
-  <<: *default
-  database: howart_render_production
-  username: howart_render
-  password: <%= ENV["HOWART_RENDER_DATABASE_PASSWORD"] %>
+# production:
+#   <<: *default
+#   database: howart_render_production
+#   username: howart_render
+#   password: <%= ENV["HOWART_RENDER_DATABASE_PASSWORD"] %>
